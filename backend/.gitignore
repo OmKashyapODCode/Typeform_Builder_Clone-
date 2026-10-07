@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.venv/
+venv/
+env/
+.env
+
+# DB files (keep typeform.db only in seed, not in prod)
+*.db
+*.sqlite
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Tests
+.pytest_cache/
+htmlcov/
+.coverage
